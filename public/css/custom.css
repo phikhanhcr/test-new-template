@@ -1,0 +1,210 @@
+.site-header .navbar {
+  padding: 0;
+}
+
+.site-header.dark {
+  background-color: #444;
+  color: #fff;
+}
+
+.site-header.dark a {
+  color: #fff;
+}
+
+.site-header .sub-menu a {
+  color: #444;
+}
+
+.site-header.light.dark-content a {
+  color: #444;
+}
+
+@media screen and (min-width: 992px) {
+  .site-header a.nav-link-item {
+    color: #fff;
+  }
+  .site-header .header-button a {
+    color: #fff;
+  }
+
+  .site-header .sub-menu {
+    width: 100vw;
+    left: 0;
+    display: flex;
+  }
+  
+  .site-header .sub-menu.megamenu {
+    padding-bottom: 40px;
+    transform: translateX(-50%) translateY(0px);
+  }
+}
+
+.site-header .sub-menu--item a:hover h6 {
+  color: #f3fcfa !important;
+}
+
+.breadcrumb-section {
+  background: #f3fcfa;
+}
+.about-section-05__image-group {
+  display: flex;
+  justify-content: center;
+}
+
+.bg-bule {
+  background: #f3fcfa;
+}
+
+.text-bule {
+  color: #403a75 !important;
+}
+
+.hero-section-08  {
+  background: #f3fcfa;
+}
+
+.cta-section-09, .cta-section-04__wrapper, .cta-section-08__wrapper {
+  background: #f3fcfa;
+}
+
+.site-header--menu-center .menu-block-inner {
+  flex: 1;
+}
+
+.c-transactions {
+  border-radius: 3px;
+}
+
+.btn_orange {
+  background: #ff6e30;
+  color: #ffffff;
+}
+
+.btn_orange:hover {
+  background: #fc4b00;
+}
+
+.platforms {
+  text-align: center;
+  width: 100%;
+}
+
+.platforms li {
+  position: relative;
+  display: inline-block;
+  margin: 0 7px;
+}
+
+.platforms .platform {
+  color: #000;
+  font-size: 9px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.platforms .platform svg {
+  fill: #555;
+}
+
+.platforms a.platform:hover {
+  color: #fc4b00;
+}
+
+.platforms a.platform:hover svg {
+  fill: #fc4b00;
+}
+
+.platform-icon {
+  display: inline-block;
+  background: url(../images/platform-icons.png) no-repeat;
+  background-size: auto 66px;
+  width: 87px;
+  height: 66px;
+  margin-bottom: -3px;
+}
+
+.platform-icon.-android {
+  background-position: 0 0;
+}
+
+.platform-icon.-iphone {
+  background-position: -87px 0;
+}
+
+.platform-icon.-ipad {
+  background-position: -174px 0;
+}
+
+.platform-icon.-mac {
+  background-position: -261px 0;
+}
+
+.platform-icon.-web {
+  background-position: -348px 0;
+}
+
+.platform-icon.-siri {
+  background-position: -435px 0;
+}
+
+.platform-icon.-amazon {
+  background-position: -522px 0;
+}
+
+.platform-icon.-google-asssitant {
+  background-position: -609px 0;
+}
+
+.platform-icon.-windows {
+  background-position: -696px 0;
+}
+
+.platform-icon.-chorme {
+  background-position: -783px 0;
+}
+
+.platform-icon.-firefox {
+  background-position: -870px 0;
+}
+
+.platform-icon.-apple-watch {
+  background-position: -957px 0;
+}
+
+.platform-icon.-wear-os {
+  background-position: -1044px 0;
+}
+
+.platform-icon.-pc {
+  background-position: -1131px 0;
+}
+
+.platform-name-comming-soon {
+  width: 100%;
+  position: absolute;
+}
+
+.platform-name {
+}
+
+.signin-section-02__bg::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f3fcfa !important;
+  z-index: 2;
+}
+
+.signup-section-02__bg::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f3fcfa !important;
+  z-index: 2;
+}

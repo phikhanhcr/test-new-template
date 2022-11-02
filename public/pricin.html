@@ -1,0 +1,55 @@
+<html style="overflow: hidden" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="robots" content="noindex">
+    <title>Pricing</title>
+    <style>
+        .payment-container {
+            max-width: 590px;
+        }
+        .container-btn-payment {
+            margin-top: 10px;
+        }
+        /* .container-btn-payment#paypal-button-container {
+            display: none;
+        } */
+        .container-btn-payment.btn-payment {
+            background-color: #f91e4e;
+            border-radius: 8px;
+            height: 48px;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            font-family: Poppins-SemiBold;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .container-btn-payment #card-element {
+            display: flex;
+            border: 1px solid #8c8a8a;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            padding: 0 15px;
+        }
+        .container-btn-payment #card-element-errors {
+            color: red;
+            padding: 10px 0;
+        }
+        .container-btn-payment{
+            margin: 0 auto;
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+<div class="container-btn-payment">
+    <div id="paypal-button-container" data-btn-show="0" class="payment-button"></div>
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js" integrity="sha512-rmZcZsyhe0/MAjquhTgiUcb4d9knaFc7b5xAfju483gbEXTkeJRUMIPk6s3ySZMYUHEcjKbjLjyddGWMrNEvZg==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://momentjs.com/downloads/moment-timezone-with-data.js"></script>
+<script type="text/javascript" src="pricin.js?v=2"></script>
+</body>
+</html>
